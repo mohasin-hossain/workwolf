@@ -116,6 +116,10 @@ main {
   display: flex;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .justify-content-between {
   justify-content: space-between;
 }
@@ -126,6 +130,10 @@ main {
 
 .text-center {
   text-align: center;
+}
+
+.text-white {
+  color: #fff;
 }
 
 h2 {
@@ -435,4 +443,59 @@ section.dw-section {
   line-height: 27px;
   font-weight: 300;
   margin: 15px 0 0 0;
+}
+
+/* HR Section */
+
+.hr-section {
+  background-color: #f1ede9;
+  padding: 100px 0;
+}
+
+.hr-section h2 {
+  margin-bottom: 55px;
+}
+
+.review {
+  background-color: #fff;
+  padding: 38px 38px;
+  height: 100%;
+}
+
+.review p {
+  font-family: Poppins;
+  color: #221f20;
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: 300;
+  margin: 45px 0 1.5em 0;
+}
+
+.review > amp-img {
+  max-width: 130px;
+  max-height: 50px;
+}
+
+.review .d-flex amp-img {
+  max-width: 55px;
+  max-height: 55px;
+  border-radius: 50%;
+}
+
+.review .d-flex {
+  align-items: center;
+}
+
+.review .d-flex p {
+  font-family: Poppins;
+  color: #221f20;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.review .d-flex p strong {
+  font-weight: 700;
 }
