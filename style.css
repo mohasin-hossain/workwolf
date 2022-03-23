@@ -527,3 +527,47 @@ section.dw-section {
   max-height: 355px;
 }
 
+/* Brands Section */
+
+.br-section {
+  background-color: #fff;
+  padding: 100px 0 0 0;
+}
+
+/* Grow Section */
+.grow-section {
+  margin: 100px 0 0 0;
+  color: #fff;
+}
+
+.grow-section .grow-bg {
+  padding: 150px 0;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-image: url("https://workwolf.com/wp-content/uploads/2021/08/w-background.png");
+  background-attachment: fixed;
+}
+
+.grow-section .container amp-img {
+  margin-top: 50px;
+}
+
+.grow-section h3 {
+  font-size: 26px;
+  font-weight: 400;
+  color: #f1ede9;
+  margin: 20px 0;
+}
+
+.grow-section p {
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #f1ede9;
+  padding-bottom: 10px;
+}
+
+.grow-section a {
+  font-size: 21px;
+  color: #d0b08b;
+}
