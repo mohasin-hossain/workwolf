@@ -623,6 +623,31 @@ section.dw-section {
   width: auto;
 }
 
+/* Privacy Section */
+.privacy-section {
+    background-color: #f1ede9;
+    padding: 100px 0;
+}
+
+.privacy-section h2 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.privacy-section h3 {
+    color: #221f20;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+.privacy-section p {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 300;
+}
+
 /* Footer */
 
 .footer {
