@@ -626,7 +626,7 @@ section.dw-section {
 /* Privacy Section */
 .privacy-section {
     background-color: #f1ede9;
-    padding: 100px 0;
+    padding: 120px 0;
 }
 
 .privacy-section h2 {
@@ -646,6 +646,28 @@ section.dw-section {
     font-size: 21px;
     line-height: 27px;
     font-weight: 300;
+}
+
+/* Less Work Section */
+.lw-section {
+    background-color: #221f20;
+    padding: 90px 0 0 0;
+}
+
+.lw-section h2 {
+    color: #fff;
+    padding: 10px 0 50px 0;
+}
+
+.lw-section h3 {
+    font-weight: 300;
+    color: #fff;
+    font-size: 26px;
+    line-height: 29px;
+}
+
+.lw-section amp-img {
+    margin: 80px 0 10px 0;
 }
 
 /* Footer */
@@ -1117,6 +1139,23 @@ section.dw-section {
   .hr-section .row {
     justify-content: center;
     margin-bottom: -30px;
+  }
+
+  .grow-section .col-md-4 {
+      width: 100%;
+  }
+
+  .privacy-section .col-md-8 {
+      width: 100%;
+  }
+
+  .privacy-section .col-md-4 {
+      width: 100%;
+      justify-content: center;
+  }
+
+  .privacy-section amp-img {
+    margin-top: 50px;
   }
 
   .review {
